@@ -85,3 +85,27 @@ async def _(event):
     zed_dev = (5093806483, 5683567042, 5902372255)
     if user.id in zed_dev:
         await event.reply(f"**-  😹😂قيييق** [{user.first_name}](tg://user?id={user.id}) ")
+        
+        
+        
+@zedub.on(events.NewMessage(pattern="مين انا"))
+async def _(event):
+    user = await event.get_sender()
+    zed_dev = (1979676071, 5683567042, 5902372255, 6091711850, 6139501574)
+    if user.id in zed_dev:
+        await event.reply(f"**-  لك انت تاج راسي المطور   ** [{user.first_name}](tg://user?id={user.id}) ")
+
+
+@zedub.on(events.NewMessage(pattern="منصب"))
+
+async def _(event):
+
+    user = await event.get_sender()
+
+    zed_dev = (5093806483, 5683567042, 5902372255, 6091711850)
+
+    if user.id in zed_dev:
+
+        await event.reply(f"**-  لبيه مطوري يب منصب** [{user.first_name}](tg://user?id={user.id}) ")
+
+        
