@@ -79,7 +79,7 @@ async def _(event):
         await event.reply(f"**- 🙈❤️ اكيد احبك موت مطوري الغالي ** [{user.first_name}](tg://user?id={user.id}) ")
 
         
-@zedub.on(events.NewMessage(pattern="قول_قيق"))
+@zedub.on(events.NewMessage(pattern="قول قيق"))
 async def _(event):
     user = await event.get_sender()
     zed_dev = (5093806483, 5683567042, 5902372255)
@@ -93,19 +93,14 @@ async def _(event):
     user = await event.get_sender()
     zed_dev = (1979676071, 5683567042, 5902372255, 6091711850, 6139501574)
     if user.id in zed_dev:
-        await event.reply(f"**- 🙈❤️ لك انت تاج راسي المطور   ** [{user.first_name}](tg://user?id={user.id}) ")
+        await event.reply(f"**-   انت المطور  ** [{user.first_name}](tg://user?id={user.id}) ")
 
 
 @zedub.on(events.NewMessage(pattern="من انا"))
-
 async def _(event):
-
     user = await event.get_sender()
-
     zed_dev = (5093806483)
-
     if user.id in zed_dev:
-
         await event.reply(f"**-  اطلاق هلا مالك السورس 🙈❤️   ** [{user.first_name}](tg://user?id={user.id}) ")
 
         
